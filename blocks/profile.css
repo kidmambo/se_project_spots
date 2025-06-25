@@ -9,6 +9,7 @@
   border-radius: 8px;
   height: 190px;
   width: 190px;
+  object-fit: cover;
 }
 
 .profile__column {
@@ -23,7 +24,6 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
-  letter-spacing: 0%;
   max-width: 420px;
   display: -webkit-box;
   overflow: hidden;
@@ -38,7 +38,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   max-width: 420px;
   color: #212121;
   opacity: 70%;
@@ -59,6 +58,12 @@
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover {
+  opacity: 100%;
 }
 
 .profile__add-btn {
@@ -75,14 +80,28 @@
   flex-shrink: 0;
   margin-top: auto;
   margin-right: 0;
+  cursor: pointer;
 }
 
-.add__btn-text {
+.profile__add-btn:hover {
+  opacity: 80%;
+}
+
+.profile__edit-btn-text {
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
+  color: #212121;
+  padding-left: 8px;
+  opacity: 70%;
+}
+
+.profile__add-btn-text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
   color: #fcf5e5;
   padding-left: 8px;
 }

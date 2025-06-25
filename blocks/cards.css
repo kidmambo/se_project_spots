@@ -2,7 +2,6 @@
   padding-top: 20px;
   padding-bottom: 36px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  max-width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -21,14 +20,12 @@
 
 @media screen and (max-width: 627px) {
   .cards {
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 20px;
   }
 
   .cards__list {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 20px;
     max-width: 288px;
     margin: 0 auto;
   }

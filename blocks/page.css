@@ -1,9 +1,10 @@
 .page {
-    background-color: #fcf5e5;
-    min-height: 100vh;
+  color: #212121;
+  background-color: #fcf5e5;
+  min-height: 100vh;
 }
 
 .page__section {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
