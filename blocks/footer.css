@@ -11,14 +11,5 @@
   line-height: 100%;
   color: #212121;
   opacity: 70%;
-  margin: 60px 588px;
-}
-
-@media screen and (max-width: 627px) {
-  .footer {
-    padding: 0px;
-  }
-  .footer__text {
-    margin: 60px 92px;
-  }
+  margin: 0;
 }

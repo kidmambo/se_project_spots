@@ -1,5 +1,6 @@
 .card {
   max-width: 413px;
+  margin: 0;
 }
 
 .card__title {
@@ -11,7 +12,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 100%;
+  max-width: 350px;
 }
 
 .card__image {
@@ -48,6 +49,7 @@
   .card__title {
     line-height: 100%;
     font-size: 16px;
+    max-width: 250px;
   }
   .card__image {
     height: 288px;

@@ -49,6 +49,8 @@
 }
 
 .profile__edit-btn {
+  display: flex;
+  padding: 0;
   margin-top: auto;
   background-color: transparent;
   color: #212121;
@@ -57,7 +59,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   opacity: 70%;
   cursor: pointer;
 }
@@ -88,17 +89,16 @@
 }
 
 .profile__edit-btn-text {
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   color: #212121;
   padding-left: 8px;
-  opacity: 70%;
 }
 
 .profile__add-btn-text {
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
