@@ -22,10 +22,18 @@ A social media website for adventurers, and expeditioners alike. Spots focuses o
 
 - HTML
 - CSS
+- Figma
 - Responsive Design
+- GitHub Pages
 
 ## Deployment
 
-This website is deployed to Github Pages.
+This website is deployed to GitHub Pages.
 
 - [Deployment Link](https://kidmambo.github.io/se_project_spots/)
+
+## About Video
+
+A 5-minute video overview of the project, it's functionality, and the why behind my design decisions.
+
+- [Video Link](https://drive.google.com/file/d/149oTugGL6-vs1P25ceXs9GBl7hrVHm07/view?usp=sharing)
