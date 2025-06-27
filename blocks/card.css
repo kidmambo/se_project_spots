@@ -13,6 +13,7 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 350px;
+  margin: 0;
 }
 
 .card__image {
